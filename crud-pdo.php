@@ -35,7 +35,7 @@ $pdo->query("INSERT INTO pessoa(nome, telefone, email) VALUES('Pedro', '00000000
 //$res = $pdo->query("DELETE FROM pessoa WHERE id = '3'");
 
 // $cmd = $pdo->prepare("UPDATE pessoa SET email = :e WHERE id= :id");
-// $cmd->bindValue(":e","Miriam@gmail.com");
+// $cmd->bindValue(":e","Pedro@gmail.com");
 // $cmd->bindValue(":id",9);
 // $cmd->execute();
 //ou
